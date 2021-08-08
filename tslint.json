@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "object-literal-sort-keys": false,
+    "jsdoc-format": false,
+    "ordered-imports": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "jsx-no-lambda": false,
+    "no-object-literal-type-assertion": false,
+    "no-console": [true, "log"],
+    "interface-over-type-literal": false
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "linterOptions": { "exclude": ["**/node_modules/**"] }
+}
