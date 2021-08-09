@@ -6,7 +6,7 @@ import Text, { TextStyle, TextTag } from 'components/Text'
 import styled from 'styles/styled-components'
 
 interface IHeader {
-  siteTitle: string
+  siteTitle?: string
 }
 
 interface IHeaderData {

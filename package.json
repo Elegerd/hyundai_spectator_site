@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Maksim Kravtsov <kravcov.max@gmail.com>",
   "dependencies": {
-    "gatsby": "2.15.34",
+    "gatsby": "^2.15.34",
     "gatsby-image": "2.2.23",
     "gatsby-plugin-manifest": "2.2.20",
     "gatsby-plugin-offline": "3.0.11",
@@ -35,7 +35,7 @@
     "@types/styled-components": "4.1.19",
     "babel-plugin-styled-components": "1.10.6",
     "gatsby-plugin-root-import": "2.0.5",
-    "husky": "3.0.8",
+    "husky": "^7.0.1",
     "prettier": "1.18.2",
     "pretty-quick": "1.11.1",
     "tslint": "5.20.0",
@@ -52,6 +52,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "heroku-postbuild": "gatsby build",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
